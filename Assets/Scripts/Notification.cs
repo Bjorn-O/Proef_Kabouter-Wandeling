@@ -12,6 +12,7 @@ public class NotificationEvent : UnityEvent<string, string, int>
 
 public class Notification : MonoBehaviour
 {
+
     AndroidNotificationChannel c = new AndroidNotificationChannel()
     {
         Id = "Notification_Channel",
