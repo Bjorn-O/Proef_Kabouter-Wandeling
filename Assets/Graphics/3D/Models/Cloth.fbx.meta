@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4c8e5dd0c730f9a408dcf457b4b7e7e1
+guid: ce40e3fb8f89c7148b93fb4c0a61be41
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -8,11 +8,6 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Pallete_Mat
-    second: {fileID: 2100000, guid: e63736e3fdc8a8346b119362e9c0e0aa, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Woodlog_Mat
     second: {fileID: 2100000, guid: e63736e3fdc8a8346b119362e9c0e0aa, type: 2}
   materials:
     materialImportMode: 2
