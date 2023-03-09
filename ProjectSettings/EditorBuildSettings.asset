@@ -5,4 +5,14 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes: []
-  m_configObjects: {}
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 9b987b4c30a1fc34eb8ff96d3cac9e5f,
+      type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: dee478dbf0398a149a4dfd7711d569db,
+      type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000,
+      guid: f46c13e911b41f94da68deef14163d46, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
+      guid: bc2c9b85ca641f0498d39ff763925759, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e24b98a6505a8554dbb76183e34cce40,
+      type: 2}
