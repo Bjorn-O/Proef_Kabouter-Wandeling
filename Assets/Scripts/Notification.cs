@@ -15,22 +15,29 @@ public class Notification : MonoBehaviour
     };
 
     AndroidNotification notification = new AndroidNotification();
-    private int notificationsToSend;
 
     private void Awake()
     {
-        notificationsToSend = 2;
         AndroidNotificationCenter.RegisterNotificationChannel(c);
-        notification.Title = "Message from Joe Biden!";
-        notification.Text = "It's joever";
-        notification.SmallIcon = "obama";
-        notification.LargeIcon = "joever";
-        notification.FireTime = System.DateTime.Now.AddSeconds(2);
     }
 
 
     private void Update()
     {
+        SendNotification("Test", "Test 2", 0);
+    }
+
+    /// <summary>
+    /// Function used to send notifications
+    /// </summary>
+    /// <param name="notifTitle">Title of the notification.</param>
+    /// <param name="notifText">Text of the notification.</param>
+    /// <param name="fireTime">Amount of time to delay the notification with in seconds.</param>
+    private void SendNotification(string notifTitle, string notifText, int fireTime)
+    {
+        notification.Title = notifTitle;
+        notification.Text = notifText;
+        notification.FireTime = System.DateTime.Now.AddSeconds(fireTime);
         AndroidNotificationCenter.SendNotification(notification, "Notification_Channel");
     }
 }
