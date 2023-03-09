@@ -18883,14 +18883,18 @@ struct SO_Resource_t22D8B0621F0D5AFCCE01392C5C9C75F592B85D9E  : public Scriptabl
 {
 	// UnityEngine.GameObject[] SO_Resource::collectables
 	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___collectables_4;
-	// System.Int32 SO_Resource::currentItems
-	int32_t ___currentItems_5;
+	// System.Int32 SO_Resource::stone
+	int32_t ___stone_5;
 	// System.Int32 SO_Resource::mushrooms
 	int32_t ___mushrooms_6;
 	// System.Int32 SO_Resource::wood
 	int32_t ___wood_7;
 	// System.Int32 SO_Resource::cloth
 	int32_t ___cloth_8;
+	// System.Int32 SO_Resource::currentLevel
+	int32_t ___currentLevel_9;
+	// System.Int32 SO_Resource::maxLevel
+	int32_t ___maxLevel_10;
 };
 
 // Microsoft.Win32.SafeHandles.SafeProcessHandle
@@ -35785,9 +35789,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5769[4] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5770[18] = 
 {
 	static_cast<int32_t>(offsetof(ObjectSpawner_t9B3FA5E78DB1643F987ECBB18E069FCE64FD0007, ___objectToSpawn_4)),static_cast<int32_t>(offsetof(ObjectSpawner_t9B3FA5E78DB1643F987ECBB18E069FCE64FD0007, ___initialDelay_5)),static_cast<int32_t>(offsetof(ObjectSpawner_t9B3FA5E78DB1643F987ECBB18E069FCE64FD0007, ___spawnDelay_6)),static_cast<int32_t>(offsetof(ObjectSpawner_t9B3FA5E78DB1643F987ECBB18E069FCE64FD0007, ___spawnDirection_7)),static_cast<int32_t>(offsetof(ObjectSpawner_t9B3FA5E78DB1643F987ECBB18E069FCE64FD0007, ___spawnAngle_8)),static_cast<int32_t>(offsetof(ObjectSpawner_t9B3FA5E78DB1643F987ECBB18E069FCE64FD0007, ___spawnRangeMax_9)),static_cast<int32_t>(offsetof(ObjectSpawner_t9B3FA5E78DB1643F987ECBB18E069FCE64FD0007, ___spawnRangeMin_10)),static_cast<int32_t>(offsetof(ObjectSpawner_t9B3FA5E78DB1643F987ECBB18E069FCE64FD0007, ___testBool_11)),static_cast<int32_t>(offsetof(ObjectSpawner_t9B3FA5E78DB1643F987ECBB18E069FCE64FD0007, ____myTransform_12)),static_cast<int32_t>(offsetof(ObjectSpawner_t9B3FA5E78DB1643F987ECBB18E069FCE64FD0007, ___maxObjects_13)),static_cast<int32_t>(offsetof(ObjectSpawner_t9B3FA5E78DB1643F987ECBB18E069FCE64FD0007, ___objects_14)),static_cast<int32_t>(offsetof(ObjectSpawner_t9B3FA5E78DB1643F987ECBB18E069FCE64FD0007, ___Resource_15)),static_cast<int32_t>(offsetof(ObjectSpawner_t9B3FA5E78DB1643F987ECBB18E069FCE64FD0007, ___drawGizmos_16)),static_cast<int32_t>(offsetof(ObjectSpawner_t9B3FA5E78DB1643F987ECBB18E069FCE64FD0007, ___edgeIndicators_17)),static_cast<int32_t>(offsetof(ObjectSpawner_t9B3FA5E78DB1643F987ECBB18E069FCE64FD0007, ___edgeIndicatorSize_18)),static_cast<int32_t>(offsetof(ObjectSpawner_t9B3FA5E78DB1643F987ECBB18E069FCE64FD0007, ___edgeIndicatorColor_19)),static_cast<int32_t>(offsetof(ObjectSpawner_t9B3FA5E78DB1643F987ECBB18E069FCE64FD0007, ___testingOn_20)),static_cast<int32_t>(offsetof(ObjectSpawner_t9B3FA5E78DB1643F987ECBB18E069FCE64FD0007, ___shouldSpawn_21)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5771[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5771[7] = 
 {
-	static_cast<int32_t>(offsetof(SO_Resource_t22D8B0621F0D5AFCCE01392C5C9C75F592B85D9E, ___collectables_4)),static_cast<int32_t>(offsetof(SO_Resource_t22D8B0621F0D5AFCCE01392C5C9C75F592B85D9E, ___currentItems_5)),static_cast<int32_t>(offsetof(SO_Resource_t22D8B0621F0D5AFCCE01392C5C9C75F592B85D9E, ___mushrooms_6)),static_cast<int32_t>(offsetof(SO_Resource_t22D8B0621F0D5AFCCE01392C5C9C75F592B85D9E, ___wood_7)),static_cast<int32_t>(offsetof(SO_Resource_t22D8B0621F0D5AFCCE01392C5C9C75F592B85D9E, ___cloth_8)),};
+	static_cast<int32_t>(offsetof(SO_Resource_t22D8B0621F0D5AFCCE01392C5C9C75F592B85D9E, ___collectables_4)),static_cast<int32_t>(offsetof(SO_Resource_t22D8B0621F0D5AFCCE01392C5C9C75F592B85D9E, ___stone_5)),static_cast<int32_t>(offsetof(SO_Resource_t22D8B0621F0D5AFCCE01392C5C9C75F592B85D9E, ___mushrooms_6)),static_cast<int32_t>(offsetof(SO_Resource_t22D8B0621F0D5AFCCE01392C5C9C75F592B85D9E, ___wood_7)),static_cast<int32_t>(offsetof(SO_Resource_t22D8B0621F0D5AFCCE01392C5C9C75F592B85D9E, ___cloth_8)),static_cast<int32_t>(offsetof(SO_Resource_t22D8B0621F0D5AFCCE01392C5C9C75F592B85D9E, ___currentLevel_9)),static_cast<int32_t>(offsetof(SO_Resource_t22D8B0621F0D5AFCCE01392C5C9C75F592B85D9E, ___maxLevel_10)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5772[4] = 
 {
 	static_cast<int32_t>(offsetof(Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401, ___heading_0)),static_cast<int32_t>(offsetof(Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401, ___text_1)),static_cast<int32_t>(offsetof(Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401, ___linkText_2)),static_cast<int32_t>(offsetof(Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401, ___url_3)),};

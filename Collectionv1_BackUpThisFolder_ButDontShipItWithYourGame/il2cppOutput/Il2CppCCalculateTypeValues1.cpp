@@ -4866,14 +4866,18 @@ struct SO_Resource_t22D8B0621F0D5AFCCE01392C5C9C75F592B85D9E  : public Scriptabl
 {
 	// UnityEngine.GameObject[] SO_Resource::collectables
 	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___collectables_4;
-	// System.Int32 SO_Resource::currentItems
-	int32_t ___currentItems_5;
+	// System.Int32 SO_Resource::stone
+	int32_t ___stone_5;
 	// System.Int32 SO_Resource::mushrooms
 	int32_t ___mushrooms_6;
 	// System.Int32 SO_Resource::wood
 	int32_t ___wood_7;
 	// System.Int32 SO_Resource::cloth
 	int32_t ___cloth_8;
+	// System.Int32 SO_Resource::currentLevel
+	int32_t ___currentLevel_9;
+	// System.Int32 SO_Resource::maxLevel
+	int32_t ___maxLevel_10;
 };
 
 // UnityEngine.AdaptivePerformance.Samsung.Android.SamsungGameSDKAdaptivePerformanceSubsystem

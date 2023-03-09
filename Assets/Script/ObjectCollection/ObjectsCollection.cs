@@ -16,7 +16,7 @@ public class ObjectsCollection : MonoBehaviour
     void Update()
     {
         Collection();
-        testtext.text = Resource.mushrooms.ToString() + "\n" + Resource.cloth.ToString() + "\n" + Resource.wood.ToString();
+        testtext.text = Resource.mushrooms.ToString() + "\n" + Resource.cloth.ToString() + "\n" + Resource.wood.ToString() + "\n" + Resource.stone.ToString();
     }
 
     private void Collection()
@@ -36,12 +36,16 @@ public class ObjectsCollection : MonoBehaviour
                             Destroy(hit.collider.gameObject);
                             Resource.mushrooms++;
                             break;
-                        case "Wood":
+                        case "Woodlog":
                             Resource.wood++;
                             Destroy(hit.collider.gameObject);
                             break;
                         case "Cloth":
                             Resource.cloth++;
+                            Destroy(hit.collider.gameObject);
+                            break;
+                        case "Stone":
+                            Resource.stone++;
                             Destroy(hit.collider.gameObject);
                             break;
                         
@@ -51,11 +55,4 @@ public class ObjectsCollection : MonoBehaviour
         }
     }
 
-    private void Completion()
-    {
-        if (Resource.currentItems == objectSpawner.maxObjects)
-        {
-            //end mini game + load next scene;
-        }
-    }
 }

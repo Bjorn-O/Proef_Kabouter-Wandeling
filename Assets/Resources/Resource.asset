@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: Resource
   m_EditorClassIdentifier: 
   collectables:
-  - {fileID: 7082635522935783505, guid: 7fdd9535cda37c6439b53ec49af6ee7e, type: 3}
+  - {fileID: 8508846347666508715, guid: 21604d786dca5da419f5f6c0b9986c70, type: 3}
   - {fileID: 8222539516751071342, guid: c40ba32b7457371478b90a7564d390b8, type: 3}
-  - {fileID: 6249162314503182034, guid: 2b08e4c2b2a74324cb334a3083b86cb3, type: 3}
+  - {fileID: 8812206656198860657, guid: e9a786d26bfe0864b9d5368462817a18, type: 3}
+  - {fileID: 8797451444706239099, guid: 2875e55a2d7a74f4bb7c4552b9fdeb4f, type: 3}
   currentItems: 0
   mushrooms: 0
   wood: 0
-  bricks: 0
+  cloth: 0
+  currentLevel: 0
+  maxLevel: 0
