@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49837a57ef1237447a9bb9f84b0dad89, type: 3}
   m_Name: Resource
   m_EditorClassIdentifier: 
-  item: {fileID: 8870429393089221099, guid: 391caab612eef7c4b88af6a5b601b491, type: 3}
+  item: {fileID: 8222539516751071342, guid: c40ba32b7457371478b90a7564d390b8, type: 3}
   currentItems: 0
   mushrooms: 0
   wood: 0

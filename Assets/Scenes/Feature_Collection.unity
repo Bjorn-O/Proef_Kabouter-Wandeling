@@ -705,11 +705,11 @@ MonoBehaviour:
   spawnDelay: 0
   spawnDirection: 360
   spawnAngle: 360
-  spawnRangeMax: 0
-  spawnRangeMin: 0
+  spawnRangeMax: 1.5
+  spawnRangeMin: 2.5
   testBool: 0
   _myTransform: {fileID: 1774418003}
-  maxObjects: 0
+  maxObjects: 10
   objects: 0
   Resource: {fileID: 11400000, guid: 9010815da98c8c64d8d4dde605449397, type: 2}
   drawGizmos: 0
