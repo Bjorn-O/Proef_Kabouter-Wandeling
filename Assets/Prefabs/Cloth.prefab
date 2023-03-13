@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8142771937616102859}
   - component: {fileID: 5093347402617686638}
   - component: {fileID: 7010911872782139044}
+  - component: {fileID: 2040016295559858379}
   m_Layer: 0
   m_Name: Cloth
   m_TagString: Untagged
@@ -25,9 +26,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8812206656198860657}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0.001310708, y: 0.001307281, z: 0.0013072809, w: 0.9999975}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.12, y: 0.12, z: 0.12}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,16 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1916064918571660330
+--- !u!65 &2040016295559858379
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7082635522935783505}
+  m_GameObject: {fileID: 8812206656198860657}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 2.44, y: 1.72, z: 4.93}
+  m_Center: {x: -0.0014778972, y: -0.062101215, z: -0.011803269}
