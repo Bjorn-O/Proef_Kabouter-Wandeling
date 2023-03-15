@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a88b8d65ddc35d84891f480ae89edf1c
+guid: 761d71237f2260d4d8920648281757e1
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -8,11 +8,6 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: texture text
-    second: {fileID: 2100000, guid: e63736e3fdc8a8346b119362e9c0e0aa, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: texture text.001
     second: {fileID: 2100000, guid: e63736e3fdc8a8346b119362e9c0e0aa, type: 2}
   - first:
       type: UnityEngine:Material
