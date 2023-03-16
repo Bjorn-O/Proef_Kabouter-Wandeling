@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Pallete_Mat
+    second: {fileID: 2100000, guid: e63736e3fdc8a8346b119362e9c0e0aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Woodlog_Mat
     second: {fileID: 2100000, guid: e63736e3fdc8a8346b119362e9c0e0aa, type: 2}
   materials:
