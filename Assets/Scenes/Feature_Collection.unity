@@ -794,8 +794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PlanePrefab: {fileID: 5139320455151098689, guid: 1653b87eb8b37b749b5971165f581d6d,
-    type: 3}
+  m_PlanePrefab: {fileID: 5139320455151098689, guid: 1653b87eb8b37b749b5971165f581d6d, type: 3}
   m_DetectionMode: 0
 --- !u!114 &1828601339
 MonoBehaviour:
@@ -822,8 +821,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedLibrary: {fileID: 11400000, guid: ee56b104ed05eaa4294785b2820f54b3,
-    type: 2}
+  m_SerializedLibrary: {fileID: 11400000, guid: ee56b104ed05eaa4294785b2820f54b3, type: 2}
   m_MaxNumberOfMovingImages: 2
-  m_TrackedImagePrefab: {fileID: 5343573366900580932, guid: 0cabbd9fd465988449a215ac6f2f2bd7,
-    type: 3}
+  m_TrackedImagePrefab: {fileID: 5343573366900580932, guid: 0cabbd9fd465988449a215ac6f2f2bd7, type: 3}
