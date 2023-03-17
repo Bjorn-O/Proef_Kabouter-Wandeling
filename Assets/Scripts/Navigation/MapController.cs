@@ -20,8 +20,8 @@ public class MapController : MonoBehaviour
     private float _latScale;
     private float _longScale;
 
-    private float _playerLocationX =  0.04394531f;
-    private float _playerLocationY = 0.02695847f;
+    private float _playerLocationX =  0.03562539f;
+    private float _playerLocationY = 0.009716596f;
 
     [Header("Test Vars")] 
     [SerializeField] private float speed;
