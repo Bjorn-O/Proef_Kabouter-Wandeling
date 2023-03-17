@@ -16,7 +16,7 @@ public class ObjectsCollection : MonoBehaviour
     void Update()
     {
         Collection();
-        testtext.text = Resource.mushrooms.ToString() + "\n" + Resource.cloth.ToString() + "\n" + Resource.wood.ToString() + "\n" + Resource.stone.ToString();
+        testtext.text = Resource.plank.ToString() + "\n" + Resource.cloth.ToString() + "\n" + Resource.wood.ToString() + "\n" + Resource.stone.ToString();
     }
 
     private void Collection()
@@ -34,7 +34,7 @@ public class ObjectsCollection : MonoBehaviour
                     {
                         case "Mushroom":
                             Destroy(hit.collider.gameObject);
-                            Resource.mushrooms++;
+                            Resource.plank++;
                             break;
                         case "Woodlog":
                             Resource.wood++;

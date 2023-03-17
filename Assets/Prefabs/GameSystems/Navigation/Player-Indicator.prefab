@@ -86,10 +86,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1733826563600802293}
   - component: {fileID: 1945226462892717500}
-  - component: {fileID: 2546824976463846479}
   m_Layer: 5
   m_Name: Player-Indicator
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131,15 +130,3 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 30
---- !u!114 &2546824976463846479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1733826563600802292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f67c02b4229ee19469dd3be88ddb16ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
